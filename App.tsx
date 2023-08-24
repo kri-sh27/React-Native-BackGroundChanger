@@ -1,17 +1,11 @@
 import React, {useState} from 'react';
-import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
-  Text,
-  TouchableHighlight,
   TouchableOpacity,
-  useColorScheme,
   View,
 } from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 function App(): JSX.Element {
 const [randomcolor, setRandomColorOne] = useState('#ffffff');
